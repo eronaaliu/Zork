@@ -1,0 +1,17 @@
+#ifndef ITEMS_H
+#define ITEMS_H
+
+#include <vector>
+#include "character.h"
+
+class items
+{
+public:
+    items(string itemName);
+    string getItems();
+    
+private:
+    string item;
+};
+
+#endif // ITEMS_H
